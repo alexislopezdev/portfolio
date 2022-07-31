@@ -199,7 +199,7 @@ h2 a {
 
 @media (max-width: 480px) {
   .ContainerCard {
-    width: 350px;
+    width: 400px;
     height: 360px;
   }
   h1 {
@@ -217,19 +217,19 @@ h2 a {
     margin-top: 60px;
   }
   .logo {
-    width: 350px;
+    width: 400px;
     height: 130px;
   }
   .ContainerCard-About {
-    width: 350px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
   }
   .Skill-container {
-    width: 310px;
+    width: 360px;
     height: 380px;
   }
   .ContainerCard-Skills  {
-    width: 200px;
+    width: 600px;
     height: 200px;
   }
   .Crud-img {
@@ -238,6 +238,22 @@ h2 a {
     height: 100px;
    
   }
+  .Text-About {
+    text-align: justify;
+    padding: 60px;
+    font-size: 14px;
+  }
+  .Container-info {
+    width: 360px;
+    height: 140px;
+    margin: 10px 0 10px 0;
+   
+  }
+  .Container-technology {
+    width: 360px;
+    height: 440px;
+  }
+  
   
 }
 
