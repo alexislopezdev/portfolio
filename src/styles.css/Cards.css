@@ -222,7 +222,7 @@ h2 a {
   }
   .ContainerCard-About {
     width: 400px;
-    height: 300px;
+    height: 200px;
   }
   .Skill-container {
     width: 360px;
@@ -240,7 +240,7 @@ h2 a {
   }
   .Text-About {
     text-align: justify;
-    padding: 60px;
+    padding: 16px;
     font-size: 14px;
   }
   .Container-info {
