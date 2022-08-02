@@ -127,12 +127,9 @@ h2 a {
   width: 460px;
   height: 200px;
   border-radius: 10px;
-  opacity: 90%;
 }
 
-.ContainerCard-Skills :hover {
-  opacity: 100%;
-}
+
 
 .Title-Skill {
   display: inline;
