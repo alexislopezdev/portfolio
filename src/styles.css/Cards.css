@@ -52,7 +52,7 @@ h4 {
 
 .Button-Card {
   background: #0a66c2;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   border-radius: 8px;
   width: 120px;
@@ -80,6 +80,7 @@ h4 {
   font-size: 16px;
 }
 .info-contact {
+  font-weight: bold;
   font-size: 14px;
   margin-left: 20px;
 }
@@ -169,7 +170,7 @@ h2 a {
 }
 
 .list {
-  padding: 20px;
+  padding: 8px;
 }
 
 .list li {
@@ -262,7 +263,26 @@ h2 a {
     margin-left: 5px;
     
   }
-  
+  .Button-freelance{
+    background: #0a66c2;
+    width: 120px;
+    height: 40px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  .Container-info2 {
+    width: 360px;
+    height: 360px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
+    padding: 20px;
+  }
   
 }
 
@@ -444,7 +464,69 @@ h2 a {
     height: 100px;
    
   }
+  .Button-freelance{
+    background: #0a66c2;
+    width: 120px;
+    height: 40px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .Container-info2 {
+    width: 320px;
+    height: 360px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
+    padding: 20px;
+  }
+  
+  
 }
+
+.Button-freelance{
+  width: 120px;
+  height: 40px;
+}
+
+.Container-info2 {
+  width: 210px;
+  height: 360px;
+  
+}
+
+.Card-blog{
+  background: #161b22e8;
+  width: 40%;
+  height: 50px;
+  margin-left: 110px;
+  margin-bottom: px;
+  border-radius: 5px;
+}
+
+.Blog-image{
+  margin-top: 4px;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+}
+.skillImg{
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+.Title-view{
+  margin-left: 10px;
+  margin: 10px;
+  width: 120px;
+}
+
+
 
 
 

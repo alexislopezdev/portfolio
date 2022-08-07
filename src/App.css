@@ -26,4 +26,14 @@
   margin-left: 5px;
   
 }
+.j{
+  background: url("../src/images/freelance.png");
+  background-repeat:no-repeat;
+  border: none;
+  height:50px;
+  width:70px;
+  background-size: 50px 50px;
+  background-position:center;
+  cursor: pointer;
+}
 

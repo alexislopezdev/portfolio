@@ -4,6 +4,9 @@ import Cards from "./components/Cards";
 import Info from "./components/Info";
 import Skills from "./components/Skill";
 import Technology from "./components/Technology";
+import Freelance from "./components/Freelance";
+import Blog from "./components/Blog";
+import Activities from "./components/Activities";
 
 function App() {
   return (
@@ -16,9 +19,9 @@ function App() {
       <div className="App2">
         <Info title="Información "></Info>
         <Technology></Technology>
-        <Info title="Actividad"></Info>
-        <Info title="Información "></Info>
-        <Info title="Información "></Info>
+        <Activities title="Actividad"></Activities>
+        <Blog title="Blog"></Blog>
+        <Freelance title="Freelance"></Freelance>
       </div>
     </div>
   );
