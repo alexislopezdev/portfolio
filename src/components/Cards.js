@@ -1,6 +1,6 @@
 import "../styles.css/Cards.css";
 import logo from "../images/algoritmo.jpg";
-import avatar from "../images/avataralex.jpg";
+import avatar from "../images/alexis-photo-delete-background.png";
 import swal from 'sweetalert';
 
 function Cards(props) {

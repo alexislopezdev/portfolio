@@ -16,7 +16,7 @@ function Freelance(props) {
       <div className="Container-info">
         <h3 className="Title-info">{props.title}</h3>
         <div className="Row-info">
-          <button className="j" onClick={clickButton}>
+          <button className="Button-freelance2" onClick={clickButton}>
           </button>
         </div>
       </div>
@@ -27,9 +27,8 @@ function Freelance(props) {
       <h3 className="Title-info">{props.title}</h3>
       <div className="Row-info">
         <h2>Servicios</h2>
-        <p>
-          HTML<br/> CSS<br/> Styled-components<br/> Style jsx Module<br/> css <br/>Javascript<br/> React Js<br/>
-          Next Js<br/> Firebase<br/> Firebase Auth<br/> Firestore Github y git
+        <p className="Service-text">
+          Landing Page<br/> E-commerce<br/> Wordpress<br/> Empresarial<br/> Personalizado<br/>
         </p>
         <button onClick={volver} className="Button-freelance">
           volver

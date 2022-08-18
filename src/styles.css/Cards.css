@@ -51,7 +51,7 @@ h4 {
 }
 
 .Button-Card {
-  background: #0a66c2;
+  background: #162649;
   font-size: 16px;
   color: white;
   border-radius: 8px;
@@ -201,7 +201,7 @@ h2 a {
     height: 400px;
   }
   h1 {
-    margin-top: 190px;
+    margin-top: 200px;
     margin-left: 20px;
     font-size: 22px;
     color: rgb(25 25 25);
@@ -215,7 +215,7 @@ h2 a {
   
   .avatar {
     width: 130px;
-    height: 120px;
+    height: 130px;
     margin-top: 60px;
   }
   .logo {
@@ -228,15 +228,16 @@ h2 a {
   }
   .Skill-container {
     width: 360px;
-    height: 380px;
+    height: 280px;
   }
   .ContainerCard-Skills  {
+    background: white;
     width: 600px;
     height: 200px;
   }
   .Crud-img {
     margin: 10px;
-    width: 220px;
+    width: 280px;
     height: 100px;
    
   }
@@ -275,15 +276,40 @@ h2 a {
     margin-top: 5px;
   }
   .Container-info2 {
-    width: 360px;
-    height: 360px;
+    width: 320px;
+    height: 300px;
     background: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 10px 0 10px 0;
     box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
     padding: 20px;
   }
-  
+  .Skill-description{
+    display: inline;
+
+  }
+  .Button-previews{
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #010611;
+    display: inline-flex;
+    border: none;
+  }
+  .image-previews{
+    width: 28px;
+    margin-left: 10px;
+  }
+ 
+  span{
+    color: #ffffff;
+    margin-top: 6px;
+    margin-left: 6px;
+  }
+  .description{
+    width: 320px;
+  }
 }
 
 
@@ -494,11 +520,7 @@ h2 a {
   height: 40px;
 }
 
-.Container-info2 {
-  width: 210px;
-  height: 360px;
-  
-}
+
 
 .Card-blog{
   background: #161b22e8;

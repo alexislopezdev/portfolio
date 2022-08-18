@@ -5,11 +5,11 @@ import Task from "../images/App task capture.png"
 function Skills() {
   return (
     <div className="Skill-container">
-      <CardSkill
+      <CardSkill 
       proyect = "https://app-task-seven.vercel.app/"
-      title="RickandMorty" 
+      title="App Task" 
       technologies="React"
-      image={Rick}
+      image={Task}
       >
       </CardSkill>
       <CardSkill 
@@ -26,11 +26,11 @@ function Skills() {
       image="https://www.eliberico.com/wp-content/uploads/2021/09/pueblos-en-reino-unido-750x375.jpg"
       >
       </CardSkill>
-      <CardSkill 
+      <CardSkill
       proyect = "https://app-task-seven.vercel.app/"
-      title="App Task" 
+      title="RickandMorty" 
       technologies="React"
-      image={Task}
+      image={Rick}
       >
       </CardSkill>
     </div>
