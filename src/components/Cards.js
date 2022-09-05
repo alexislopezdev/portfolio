@@ -7,6 +7,7 @@ function Cards(props) {
 
   const alerta = () =>{
       swal("Exito","Gracias por contactarme!!","success" )
+    
   }
   return (
     <div className="ContainerCard">

@@ -130,8 +130,6 @@ h2 a {
   border-radius: 10px;
 }
 
-
-
 .Title-Skill {
   display: inline;
 }
@@ -209,10 +207,10 @@ h2 a {
   h3 {
     font-size: 16px;
   }
-  h4{
+  h4 {
     font-size: 15px;
   }
-  
+
   .avatar {
     width: 130px;
     height: 130px;
@@ -230,7 +228,7 @@ h2 a {
     width: 360px;
     height: 280px;
   }
-  .ContainerCard-Skills  {
+  .ContainerCard-Skills {
     background: white;
     width: 600px;
     height: 200px;
@@ -239,7 +237,6 @@ h2 a {
     margin: 10px;
     width: 280px;
     height: 100px;
-   
   }
   .Text-About {
     text-align: justify;
@@ -250,21 +247,19 @@ h2 a {
     width: 360px;
     height: 140px;
     margin: 10px 0 10px 0;
-   
   }
   .Container-technology {
     width: 360px;
     height: 440px;
   }
-  .Container-main{
+  .Container-main {
     display: flex;
     padding: 20px;
     justify-content: center;
     flex-direction: column;
     margin-left: 5px;
-    
   }
-  .Button-freelance{
+  .Button-freelance {
     background: #0a66c2;
     width: 120px;
     height: 40px;
@@ -284,11 +279,10 @@ h2 a {
     box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
     padding: 20px;
   }
-  .Skill-description{
+  .Skill-description {
     display: inline;
-
   }
-  .Button-previews{
+  .Button-previews {
     width: 130px;
     height: 30px;
     margin: 10px;
@@ -297,22 +291,24 @@ h2 a {
     display: inline-flex;
     border: none;
   }
-  .image-previews{
+  .image-previews {
     width: 28px;
     margin-left: 10px;
   }
- 
-  span{
+
+  span {
     color: #ffffff;
     margin-top: 6px;
     margin-left: 6px;
   }
-  .description{
+  .description {
     width: 320px;
   }
+  .Card-blog {
+    margin-left: 110px;
+  }
+  
 }
-
-
 
 @media only screen and (min-width: 480px) and (max-width: 800px) {
   .ContainerCard {
@@ -345,7 +341,7 @@ h2 a {
     width: 640px;
     height: 380px;
   }
-  .ContainerCard-Skills  {
+  .ContainerCard-Skills {
     width: 800px;
     height: 200px;
   }
@@ -353,7 +349,6 @@ h2 a {
     margin: 10px;
     width: 300px;
     height: 100px;
-   
   }
   .Container-technology {
     width: 680px;
@@ -363,24 +358,62 @@ h2 a {
     width: 680px;
     height: 140px;
     margin: 10px 0 10px 0;
-   
   }
-  .Container-main{
+  .Container-main {
     display: flex;
     padding: 20px;
     justify-content: center;
     flex-direction: column;
     margin-left: 10px;
-    
   }
-  
+  .Card-blog {
+    margin-left: 210px;
+  }
+  .Button-previews {
+    width: 120px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background: #010611;
+    display: inline-flex;
+    border: none;
+  }
+  .image-previews {
+    width: 24px;
+    margin-left: 10px;
+  }
+
+  span {
+    color: #ffffff;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-size: 14px;
+  }
+  .description {
+    width: 320px;
+  }
+  .Container-info2 {
+    width: 640px;
+    height: 280px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
+    padding: 20px;
+  }
+  .Button-freelance {
+    background: #0a66c2;
+    width: 120px;
+    height: 40px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
 }
-  
-
-
-
-
-
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
   .ContainerCard {
@@ -392,13 +425,12 @@ h2 a {
     width: 800px;
     height: 220px;
   }
-  .Container-main{
+  .Container-main {
     display: flex;
     padding: 20px;
     justify-content: center;
     flex-direction: column;
-    margin-left: 10px;
-    
+    margin-left: 80px;
   }
   .ContainerCard-About {
     width: 800px;
@@ -408,15 +440,14 @@ h2 a {
     width: 760px;
     height: 300px;
   }
-  .ContainerCard-Skills  {
-    width: 300px;
-    height: 200px;
+  .ContainerCard-Skills {
+    width: 340px;
+    height: 240px;
   }
   .Crud-img {
     margin: 10px;
-    width: 220px;
+    width: 260px;
     height: 100px;
-   
   }
   .Container-technology {
     width: 760px;
@@ -426,30 +457,70 @@ h2 a {
     width: 760px;
     height: 140px;
     margin: 10px 0 10px 0;
-   
   }
-  
+  .Button-previews {
+    width: 120px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background: #010611;
+    display: inline-flex;
+    border: none;
+  }
+  .image-previews {
+    width: 24px;
+    margin-left: 10px;
+  }
+
+  span {
+    color: #ffffff;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-size: 14px;
+  }
+  .description {
+    width: 320px;
+  }
+  .Card-blog {
+    margin-left: 230px;
+  }
+  .Container-info2 {
+    width: 720px;
+    height: 280px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
+    padding: 20px;
+  }
+  .Button-freelance {
+    background: #0a66c2;
+    width: 120px;
+    height: 40px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
 }
-
-
-
 
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
   .ContainerCard-About {
     width: 800px;
     height: 280px;
   }
-  .Container-main{
+  .Container-main {
     display: flex;
-    padding:20px;
+    padding: 20px;
     justify-content: center;
     margin-left: 5px;
-    
   }
   .App {
-    margin:20px;
+    margin: 20px;
   }
-  
+
   .ContainerCard {
     min-width: 800px;
     height: 500px;
@@ -478,19 +549,18 @@ h2 a {
   }
   .Skill-container {
     width: 760px;
-    height: 300px;
+    height: 280px;
   }
-  .ContainerCard-Skills  {
-    width: 300px;
+  .ContainerCard-Skills {
+    width: 360px;
     height: 200px;
   }
   .Crud-img {
     margin: 10px;
-    width: 220px;
-    height: 100px;
-   
+    width: 260px;
+    height: 120px;
   }
-  .Button-freelance{
+  .Button-freelance {
     background: #0a66c2;
     width: 120px;
     height: 40px;
@@ -501,57 +571,70 @@ h2 a {
     cursor: pointer;
     margin-top: 5px;
   }
-  
+
   .Container-info2 {
-    width: 320px;
-    height: 360px;
+    width: 210px;
+    height: 260px;
     background: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 10px 0 10px 0;
     box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
     padding: 20px;
   }
-  
-  
+  .Button-previews {
+    width: 120px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background: #010611;
+    display: inline-flex;
+    border: none;
+  }
+  .image-previews {
+    width: 24px;
+    margin-left: 10px;
+  }
+
+  span {
+    color: #ffffff;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-size: 14px;
+  }
+  .description {
+    width: 320px;
+  }
+  .Card-blog {
+    margin-left: 80px;
+  }
 }
 
-.Button-freelance{
+.Button-freelance {
   width: 120px;
   height: 40px;
 }
 
-
-
-.Card-blog{
+.Card-blog {
   background: #161b22e8;
   width: 40%;
   height: 50px;
-  margin-left: 110px;
-  margin-bottom: px;
+  margin-bottom: 0px;
   border-radius: 5px;
 }
 
-.Blog-image{
+.Blog-image {
   margin-top: 4px;
   width: 50px;
   height: 40px;
   cursor: pointer;
 }
-.skillImg{
+.skillImg {
   margin-top: 10px;
   width: 40px;
   height: 40px;
 }
-.Title-view{
+.Title-view {
   margin-left: 10px;
   margin: 10px;
   width: 120px;
 }
-
-
-
-
-
-
-
-

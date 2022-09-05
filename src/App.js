@@ -8,6 +8,7 @@ import Freelance from "./components/Freelance";
 import Blog from "./components/Blog";
 import Activities from "./components/Activities";
 
+
 function App() {
   return (
     <div className="Container-main">
