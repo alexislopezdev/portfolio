@@ -1,6 +1,6 @@
 # Porfolio Alexis lopez
 
-This project was bootstrapped with [https://portfolio-three-psi-83.vercel.app/](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [https://portfolio-three-psi-83.vercel.app/](https://portfolio-three-psi-83.vercel.app/).
 
 
 ## Available Scripts
@@ -14,6 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
 
 ### `npm test`
 
