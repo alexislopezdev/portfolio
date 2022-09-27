@@ -1,5 +1,8 @@
 # Porfolio Alexis lopez
 
+> This project was created with react.js
+
+
 ![portfolio](./src/images/Captura%20de%20pantalla%202022-09-16%20195110.png)
 
 
@@ -17,5 +20,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
+
+
+
 
 

@@ -5,7 +5,7 @@ function CardSkill(props) {
   const [description,setdescription] = useState(false);
 
   function Preview() {
-    return window.location.href = "https://app-task-seven.vercel.app/";
+    return window.location.href = "https://app-task-seven.vercel.app/"
   }
   
   function modal(){

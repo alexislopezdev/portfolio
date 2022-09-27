@@ -19,6 +19,7 @@ function Technology() {
           <li>Redux.</li>
           <li>Figma.</li>
           <li>Github y git.</li>
+          <li>Markdown.</li>
         </ul>
       </div>
     </div>

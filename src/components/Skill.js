@@ -1,6 +1,8 @@
 import CardSkill from "./Card-Skill";
 import Rick from "../images/rickandmortyapi.png"
 import Task from "../images/App task capture.png"
+import Spx from "../images/Spx.png"
+import Nauticatorres from "../images/nauticatorres.png"
 
 function Skills() {
   return (
@@ -14,16 +16,16 @@ function Skills() {
       </CardSkill>
       <CardSkill 
       proyect = "https://app-task-seven.vercel.app/"
-      title="Crud" 
-      technologies="React"
-      image="https://www.civitatis.com/blog/wp-content/uploads/2021/03/alquezar-huesca-pueblo-montana.jpg"
+      title="Spx Nutrition" 
+      technologies="Bootstrap"
+      image={Spx}
       >
       </CardSkill>
       <CardSkill 
       proyect = "https://app-task-seven.vercel.app/"
-      title="SupeHeroes" 
-      technologies="React"
-      image="https://www.eliberico.com/wp-content/uploads/2021/09/pueblos-en-reino-unido-750x375.jpg"
+      title="Nautica Torres" 
+      technologies="Bootstrap"
+      image={Nauticatorres}
       >
       </CardSkill>
       <CardSkill
