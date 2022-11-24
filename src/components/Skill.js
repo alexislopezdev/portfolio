@@ -1,5 +1,5 @@
 import CardSkill from "./Card-Skill";
-import Rick from "../images/rickandmortyapi.png"
+import CardsCss from "../images/Cardscss.png"
 import Task from "../images/App task capture.png"
 import Spx from "../images/Spx.png"
 import Nauticatorres from "../images/nauticatorres.png"
@@ -15,24 +15,24 @@ function Skills() {
       >
       </CardSkill>
       <CardSkill 
-      proyect = "https://app-task-seven.vercel.app/"
+      proyect = "http://spxnutritionmax.com.ar/"
       title="Spx Nutrition" 
       technologies="Bootstrap"
       image={Spx}
       >
       </CardSkill>
       <CardSkill 
-      proyect = "https://app-task-seven.vercel.app/"
+      proyect = "http://nauticatorres.com.ar/"
       title="Nautica Torres" 
       technologies="Bootstrap"
       image={Nauticatorres}
       >
       </CardSkill>
       <CardSkill
-      proyect = "https://app-task-seven.vercel.app/"
-      title="RickandMorty" 
-      technologies="React"
-      image={Rick}
+      proyect = "https://cardscss.vercel.app/"
+      title="Cards Css" 
+      technologies="Html Css"
+      image={CardsCss}
       >
       </CardSkill>
     </div>

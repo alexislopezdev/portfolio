@@ -3,10 +3,21 @@ body {
    font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
 
 }
+
+@keyframes example {
+  10%   {background-color:rgb(255, 255, 255); left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:#162649; left:200px; top:200px;}
+  75%  {background-color:rgba(95, 91, 91, 0.219); left:0px; top:200px;}
+  100% {background-color:rgb(255, 255, 255); left:0px; top:0px;}
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

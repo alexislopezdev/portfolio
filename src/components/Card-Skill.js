@@ -1,18 +1,15 @@
 import View from "../images/view.png";
 import Description from "../images/edit-info.png";
 import { useState } from "react";
-function CardSkill(props) {
-  const [description,setdescription] = useState(false);
 
-  function Preview() {
-    return window.location.href = "https://app-task-seven.vercel.app/"
+function CardSkill(props) {
+  const [description, setdescription] = useState(false);
+
+  function modal() {
+    setdescription(true);
   }
-  
-  function modal(){
-    setdescription(true)
-  }
-  function modalClose(){
-    setdescription(false)
+  function modalClose() {
+    setdescription(false);
   }
   return (
     <>
@@ -44,7 +41,12 @@ function CardSkill(props) {
           <div className="Skill-description">
             <img className="Crud-img" alt="#" src={props.image} />
             <div>
-              <button onClick={Preview} className="Button-previews">
+              <button
+                onClick={function Preview() {
+                  return (window.location.href = props.proyect);
+                }}
+                className="Button-previews"
+              >
                 <img className="image-previews" src={View} alt="#"></img>
                 <span>Preview</span>
               </button>
